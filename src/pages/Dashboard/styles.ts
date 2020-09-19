@@ -108,5 +108,6 @@ a{
         margin-left: auto;
         color: #C9C9D4;
     }
-}n
+}
+
 `;

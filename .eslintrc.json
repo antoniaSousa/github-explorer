@@ -17,7 +17,10 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "react",
+        "@typescript-eslint",
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
         "settings": {
@@ -25,6 +28,8 @@
               "typescript": {}
             }
           },
+          "react-hooks/rules-of-hooks": "error",
+          "react-hooks/exhaustive-deps": "warn",
           "@typescript-eslint/explicit-function-return-type": [
               "error",
               {
